@@ -2,6 +2,9 @@ node_modules
 temp
 public
 
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 .pnp.*
 .yarn/*
 !.yarn/patches

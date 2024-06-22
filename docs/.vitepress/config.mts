@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
-import Mathjax from "markdown-it-mathjax3";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,7 +22,9 @@ export default defineConfig({
 				],
 			},
 		], */
-		sidebar: generateSidebar(),
+		sidebar: generateSidebar({
+			useTitleFromFileHeading: true,
+		}),
 
 		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
 	},
@@ -42,8 +43,8 @@ export default defineConfig({
 					"->": "\\green\\Longrightarrow",
 					f: "\\frac",
 					t: "\\times",
-					RR: "{\\bf R}",
-					bold: ["{\\bf #1}", 1],
+					// RR: "{\\bf R}",
+					// bold: ["{\\bf #1}", 1],
 				},
 			},
 		},

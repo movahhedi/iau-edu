@@ -1,10 +1,12 @@
-# asd
+# جزوه
+سلام
+$$\DeclareMathOperator{\sech}{sech}$$
+$$\DeclareMathOperator{\csch}{csch}$$
 
-$$ e^x$$
 
 | تابع | مشتق |
 |:---:|:---:|
-| $ a $ | $0$ |
+| $a$ | $0$ |
 | $e^x$ | $x'e^x$ |
 | $\ln x$ | $\f {x'} x$ |
 | $\sin x$ | $x'\cos x$ |

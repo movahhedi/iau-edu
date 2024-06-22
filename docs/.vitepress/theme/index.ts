@@ -3,6 +3,7 @@ import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
+import "vazirmatn/misc/Non-Latin/Vazirmatn-NL-font-face.css";
 
 export default {
 	extends: DefaultTheme,
@@ -15,3 +16,4 @@ export default {
 		// ...
 	},
 } satisfies Theme;
+

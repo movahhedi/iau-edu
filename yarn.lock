@@ -2135,6 +2135,7 @@ __metadata:
   dependencies:
     markdown-it-mathjax3: "npm:^4.3.2"
     typescript: "npm:^5.5.2"
+    vazirmatn: "npm:^33.0.3"
     vitepress: "npm:^1.2.3"
     vitepress-sidebar: "npm:^1.23.2"
   languageName: unknown
@@ -2423,6 +2424,13 @@ __metadata:
   version: 3.0.1
   resolution: "valid-data-url@npm:3.0.1"
   checksum: 10c0/ffc7cac681976ca2db01003dc14286f75241309e90d96e505580469125c83c2de6b5203f0222226cb08f6daf0aff7de9855655c28a64e8590e7b58c01694a896
+  languageName: node
+  linkType: hard
+
+"vazirmatn@npm:^33.0.3":
+  version: 33.0.3
+  resolution: "vazirmatn@npm:33.0.3"
+  checksum: 10c0/aa6d90cd68a69c0043fb2014c5908f1576e0264aaa7e21d9e8643f8dc1c0f7423d1f97cb05e0e273e539421d7d786efaa48a4853338dcbdd5d2339d5c4495c7e
   languageName: node
   linkType: hard
 

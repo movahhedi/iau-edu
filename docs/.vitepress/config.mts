@@ -5,7 +5,7 @@ import { generateSidebar } from "vitepress-sidebar";
 export default defineConfig({
 	title: "Edu",
 	description: "Education at SRBIAU",
-	base: "/docs/",
+	base: "/iau-edu/",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [

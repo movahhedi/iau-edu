@@ -1,16 +1,16 @@
 {
 	"packageManager": "yarn@4.3.1",
-	"dependencies": {
-		"typescript": "^5.5.2",
-		"vazirmatn": "^33.0.3",
-		"vitepress": "^1.2.3"
-	},
 	"scripts": {
 		"start": "vitepress dev docs",
 		"build": "vitepress build docs",
 		"docs:dev": "vitepress build docs",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
+	},
+	"dependencies": {
+		"typescript": "^5.5.2",
+		"vazirmatn": "^33.0.3",
+		"vitepress": "^1.2.3"
 	},
 	"devDependencies": {
 		"markdown-it-mathjax3": "^4.3.2",

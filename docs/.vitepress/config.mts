@@ -1,11 +1,15 @@
 import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 
+const isVercel = process.env.VERCEL;
+
+const base = isVercel ? "" : "/iau-edu/";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	title: "Edu",
 	description: "Education at SRBIAU",
-	base: "/iau-edu/",
+	base,
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [

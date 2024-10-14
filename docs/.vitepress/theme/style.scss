@@ -144,7 +144,11 @@ mjx-container.MathJax {
 	height: max-content;
 
 	* {
-		color: #6eb1ca;
+		color: #0d84b1;
+
+		html.dark & {
+			color: #6eb1ca;
+		}
 
 		p & {
 			margin-inline: 5px;

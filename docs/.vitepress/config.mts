@@ -35,6 +35,10 @@ export default defineConfig({
 	},
 
 	markdown: {
+		image: {
+			// image lazy loading is disabled by default
+			lazyLoading: true,
+		},
 		math: {
 			tex: {
 				inlineMath: [
@@ -43,9 +47,12 @@ export default defineConfig({
 					["\\(", "\\)"],
 				],
 				macros: {
-					ra: "\\green\\Longrightarrow",
-					"=>": "\\green\\Longrightarrow",
-					"->": "\\green\\Longrightarrow",
+					// ra: "\\green\\Longrightarrow",
+					// "=>": "\\green\\Longrightarrow",
+					// "->": "\\green\\Longrightarrow",
+					ra: "\\Longrightarrow",
+					"=>": "\\Longrightarrow",
+					"->": "\\Longrightarrow",
 					f: "\\frac",
 					t: "\\times",
 					// RR: "{\\bf R}",
@@ -55,4 +62,3 @@ export default defineConfig({
 		},
 	},
 });
-

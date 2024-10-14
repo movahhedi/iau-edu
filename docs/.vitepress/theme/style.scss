@@ -145,6 +145,15 @@
 
 h3, h4, h5, h6 {
 	margin-top: 40px;
+	padding-block: 5px;
+	padding-inline: 10px;
+
+	// background: white;
+	background-image: radial-gradient(rgba(9, 148, 173, 0.4) 1px, transparent 0);
+	$Size: 4px;
+	$Position: 2px;
+	background-size: $Size $Size;
+	background-position: $Position $Position;
 }
 
 mjx-container.MathJax {

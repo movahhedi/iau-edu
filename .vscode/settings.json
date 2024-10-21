@@ -6,5 +6,8 @@
 		"\\f": "\\frac",
 		"\\t": "\\times",
 		"\\d": "\\diamond",
+		"\\Z": "\\mathbb{Z}",
+		"\\sys": "\\green{\\fbox{system}}",
+		"\\sysra": "\\ra \\green{\\fbox{system}} \\ra",
 	}
 }

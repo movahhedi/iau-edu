@@ -37,6 +37,13 @@ export default defineConfig({
 			level: [2, 3],
 		},
 	},
+	head: [
+		[
+			"script",
+			{},
+			"console.log(123);"
+		]
+	],
 
 	markdown: {
 		image: {

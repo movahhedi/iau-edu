@@ -29,6 +29,7 @@ export default defineConfig({
 		sidebar: generateSidebar({
 			useTitleFromFileHeading: true,
 			documentRootPath: "/docs",
+			includeDotFiles: false,
 		}),
 
 		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],

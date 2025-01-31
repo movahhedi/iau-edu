@@ -3,26 +3,26 @@
 layout: home
 
 hero:
-  name: "Edu"
-  text: "Education at SRBIAU"
-  tagline: My great project tagline
+  name: "Signals & Systems"
+  text: "سیگنال‌ها و سیستم‌ها"
+#   tagline: Signals & Systems
   actions:
+    # - theme: brand
+    #   text: Differential
+    #   link: /Differential
     - theme: brand
-      text: Differential
-      link: /Differential
-    - theme: brand
-      text: Signals
-      link: /Signals
+      text: View Docs
+      link: /Signals/1.html
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

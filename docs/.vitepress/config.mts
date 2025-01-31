@@ -67,6 +67,7 @@ export default defineConfig({
 					f: "\\frac",
 					t: "\\times",
 					Z: "\\mathbb{Z}",
+					d: "\\text{d}",
 					// RR: "{\\bf R}",
 					// bold: ["{\\bf #1}", 1],
 					sys: "\\fbox{system}",

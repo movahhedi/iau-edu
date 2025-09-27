@@ -11,7 +11,7 @@ hero:
     #   text: Differential
     #   link: /Differential
     - theme: brand
-      text: View Docs
+      text: مشاهده
       link: /Signals/1.html
     # - theme: alt
     #   text: API Examples
